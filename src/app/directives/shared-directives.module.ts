@@ -12,6 +12,7 @@ import { HideHeaderDirective } from './hide-header.directive';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ParallaxDirective, HideHeaderDirective]
 })
 export class SharedDirectivesModule { }
