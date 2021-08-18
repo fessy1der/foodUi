@@ -25,3 +25,22 @@
 #container a {
   text-decoration: none;
 }
+
+ion-slides {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.featured-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
